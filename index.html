@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="text-align: center;">
+
+
+    <h1>Bulb Project</h1>
+
+    <button onclick="bulbOff()">Bulb Off</button>
+
+    <img id="bulb" src="bulboff.gif" alt="">
+
+    <button onclick="bulbOn()">Bulb On</button>
+
+    <script>
+
+        function bulbOn() {
+            document.getElementById("bulb").src = "bulbon.gif";
+        };
+
+        function bulbOff() {
+            document.getElementById("bulb").src = "bulboff.gif";
+        };
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
